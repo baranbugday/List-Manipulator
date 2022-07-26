@@ -48,7 +48,3 @@ def filterImage(img, filter):
         filtered_img = cv2.filter2D(padded_img, -1, gaussian)
         cropped_result = cropImage(filtered_img, crop_array)
         return cropped_result
-
-cv2.imshow('orji', img1)
-cv2.imshow('asdasd', filterImage(img1, 'gaf' ))
-cv2.waitKey()
