@@ -1,4 +1,4 @@
-# projects
+# List Manipulator
 
 A basic c++ program to manipulate a vector object with user inputs. Includes features
 such as adding a number to the vector, scanning the vector for a spesific number, taking
