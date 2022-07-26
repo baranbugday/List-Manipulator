@@ -23,13 +23,13 @@ User input is              : 1687
 
 Output is                  : +2 -2
 
-#Image Processing Functions Using OpenCV (Python)
+# Image Processing Functions Using OpenCV (Python)
 
-##Grey Level Slicing
+### Grey Level Slicing
 
 A band pass filter function written for 8-bit images monochrome images.
 
-##Filter Image
+### Filter Image
 
 A function that contains 5 different filters which is x directional highpass filter,
 y-directional highpass filter, Laplacian filter, uniform averaging filter, Gaussian
@@ -38,13 +38,13 @@ Function pads the image by using the function padding below(padImage) after padd
 3x3 kernel is applied. Then using the cropping function below(cropImage) returns the 
 original sized image.
 
-######Pad Image
+##### Pad Image
 
 A function with parameters of (img,nrp,ncr). Function is designed to change the size of
 the (nr, nc) image to (nrp, ncr) and put the old image data to the center of the new
 image.
 
-######Crop Image
+##### Crop Image
 
 A function with parameters of (img, cropArray). cropArray parameter contains the desired
 upper-left and bottom-right cordinates coordinates for cropping.
