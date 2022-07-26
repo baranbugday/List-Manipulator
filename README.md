@@ -25,11 +25,11 @@ Output is                  : +2 -2
 
 #Image Processing Functions Using OpenCV (Python)
 
--Grey Level Slicing
+##Grey Level Slicing
 
 A band pass filter function written for 8-bit images monochrome images.
 
--Filter Image
+##Filter Image
 
 A function that contains 5 different filters which is x directional highpass filter,
 y-directional highpass filter, Laplacian filter, uniform averaging filter, Gaussian
