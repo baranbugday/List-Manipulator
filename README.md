@@ -13,8 +13,8 @@ the output shows that if the positions of the digits are correct or not. In orde
 the player must get the output of +4 which means all the digits are correct(4) and they
 are all positioned correct(+). For example:
 
-Random generated number is : 1678
-User input is              : 1843
-Output is                  : +1 -1
-User input is              : 1687
-Output is                  : +2 -2
+/Random generated number is : 1678
+/User input is              : 1843
+/Output is                  : +1 -1
+/User input is              : 1687
+/Output is                  : +2 -2
