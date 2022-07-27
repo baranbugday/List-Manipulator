@@ -27,7 +27,7 @@ Output is                  : +2 -2
 
 ### Grey Level Slicing
 
-A band pass filter function written for 8-bit images monochrome images.
+A band pass filter function written for 8-bit monochrome images.
 
 ### Filter Image
 
