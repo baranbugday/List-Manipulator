@@ -1,0 +1,35 @@
+#!/usr/bin/expect
+set timeout 1
+set loginUser "user"
+set loginPass "pass"
+set adress "adress"
+set argCountMax "50"
+set cmd " " ; set spc " " 
+set prompt "# " 
+set prompt1 "> "
+
+for {set i 0} {$i < $argCountMax} {incr i 1} { 
+	set cmd_temp [lindex $argv $i]
+	set cmd "${cmd}${spc}${cmd_temp}"
+}
+
+spawn telnet $adress
+expect "login: "
+send "$loginUser\r"
+expect "password: "
+send "$loginPass\r"
+expect "${prompt1}"
+send "sh\r"
+
+log_file -noappend commandlog.log
+
+expect "${prompt}"
+send "$cmd\r"
+expect "${prompt}"
+
+log_file
+
+send "exit\r"
+expect "${prompt1}"
+send "exit\r"
+
