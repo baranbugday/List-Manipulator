@@ -31,10 +31,10 @@ A band pass filter function written for 8-bit monochrome images.
 
 ### Filter Image
 
-A function that contains 5 different filters which is x directional highpass filter,
+A function that contains 5 different filters which is x-directional highpass filter,
 y-directional highpass filter, Laplacian filter, uniform averaging filter, Gaussian
 averaging filter. OpenCV imread function is configured for 8-bit monochrome images.
-Function pads the image by using the function padding below(padImage) after padding the
+Function pads the image by using the padding function below(padImage). After padding the
 3x3 kernel is applied. Then using the cropping function below(cropImage) returns the 
 original sized image.
 
