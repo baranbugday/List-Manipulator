@@ -29,9 +29,9 @@ A script written for automating a telnet connection that requires a username and
 password. All Input arguments are considered a command that will be used after getting 
 into the device interface. Command output is stored in a commandlog.log file. 
 
-# Basic Streamlit App (app.py)
+# Streamlit App (app.py)
 
-A python script to create a website that can take user inputs as shell commands and
+A basic python script to create a website that can take user inputs as shell commands and
 returns the output.
 
 # Image Processing Functions Using OpenCV (Python)
