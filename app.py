@@ -5,7 +5,7 @@ import time
 
 command="expect app.exp {} {} {} {}"
 
-st.set_page_config(page_title="Airties", layout="wide")
+st.set_page_config(page_title="Title", layout="wide")
 
 bandwidth=st.sidebar.selectbox(
 	'Bandwidth(MHz)',
